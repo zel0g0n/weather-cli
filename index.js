@@ -1,8 +1,7 @@
 const getArgs = require('./helpers/args')
 const weatherCLI = () => {
-  const args = getArgs(process.argv)
-  console.log(args)
-
+  const arr = getArgs(process.argv)
+  console.log(arr)
   if(args.h) {
     // help
   }
@@ -14,7 +13,6 @@ const weatherCLI = () => {
   if(args.s) {
     // save city
   }
-
+  //result
 }
-
 weatherCLI()
